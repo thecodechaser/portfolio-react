@@ -41,8 +41,10 @@ const ContactForm = () => {
     };
 
     emailjs.send(serviceId, templateId, templateParams, userId)
-      .then((response) => console.log(response))
-      .then((error) => console.log(error));
+      .then(() => {
+      })
+      .catch(() => {
+      });
 
     setSuccessNotice(true);
     setTimeout(() => {

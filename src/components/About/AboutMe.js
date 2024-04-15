@@ -23,7 +23,7 @@ const AboutMe = () => (
     className="mt-14 md:mt-24"
   >
     <div className="flex gap-3 ml-3 md:ml-0">
-      <h2 className="text-2xl md:text-4xl">Aboute Me</h2>
+      <h2 className="text-2xl md:text-4xl">About Me</h2>
       <div className="border-b-2 w-3/5 mb-3 border-secondaryColor hr-about" />
     </div>
     <div className="flex flex-col md:flex-row mt-5 ml-4 mr-5 gap-5 text-base text-skyColor md:ml-1 about-text">
