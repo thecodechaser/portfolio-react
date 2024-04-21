@@ -2,6 +2,7 @@ import { ChevronRightIcon } from '@heroicons/react/solid';
 import { motion } from 'framer-motion';
 import microverseLogo from '../../assets/images/microverse_logo.png';
 import freelanceLogo from '../../assets/images/freelance-logo.jpg';
+import kwanzooLogo from '../../assets/images/kwanzoo-logo.jpg';
 
 const Experience = () => (
   <motion.div
@@ -18,8 +19,39 @@ const Experience = () => (
     <div className="mt-8 md:ml-1">
       <div className="flex mt-4 text-lg text-secondaryColor ml-4 gap-16 md:gap-96 md:ml-0">
         <h3>
+          Full-Stack Software Engineer
+          <span className="block text-sm ml-1 text-skyColor">October 2022 – Present</span>
+        </h3>
+        <p className="md:mr-3">
+          <img src={kwanzooLogo} alt="microverse-logo" className="inline w-8" />
+          {' '}
+          Kwanzoo INC
+          <span className="block text-sm text-skyColor">Remote</span>
+        </p>
+      </div>
+      <ul className="ml-4 md:ml-0">
+        <li className="flex text-base gap-2 text-skyColor mt-4">
+          <ChevronRightIcon className="h-6" />
+          <p>
+            Reviewed technical projects of junior web developers to make sure projects
+            pass requirements.
+          </p>
+        </li>
+        <li className="flex text-base gap-2 text-skyColor mt-2">
+          <ChevronRightIcon className="h-6" />
+          <p>
+            Proposed improvements for the projects to improve code quality and
+            overall performance.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div className="mt-8 md:ml-1">
+      <div className="flex mt-4 text-lg text-secondaryColor ml-4 gap-16 md:gap-96 md:ml-0">
+        <h3>
           Technical Support Engineer
-          <span className="block text-sm ml-1 text-skyColor">January 2022 – Present</span>
+          <span className="block text-sm ml-1 text-skyColor">January 2022 – April 2024</span>
         </h3>
         <p className="md:mr-3">
           <img src={microverseLogo} alt="microverse-logo" className="inline w-8" />

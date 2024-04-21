@@ -17,12 +17,13 @@ const ContactInfo = () => (
     <div className="ml-4 md:flex mt-8 md:gap-12 md:ml-1">
       <p className="md:w-1/3 text-base text-skyColor">
         {' '}
-        If you have an application you are interested in developing, a feature that you need
-        to be built, or a project that needs coding. I’d love to help with it.
+        If you have an app idea you&apos;d like to develop, a feature that
+        needs building, or a project that requires coding, I&apos;m here to help.
+        Let&apos;s bring your vision to life!
         <br />
         <br />
-        I love collaborating with other developers, if you are looking for a collaborator for your
-        project let&apos;s schedule a coffee and chat.
+        I really enjoy collaborating with other developers. If you&apos;re seeking a
+        project partner, let&apos;s grab a coffee and chat about what we can create together.
       </p>
       <div className="md:w-1/5 mt-4 md:mt-0">
         <h4 className="mb-4 text-2xl">Contacts</h4>
