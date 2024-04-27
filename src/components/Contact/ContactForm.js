@@ -40,11 +40,7 @@ const ContactForm = () => {
       message,
     };
 
-    emailjs.send(serviceId, templateId, templateParams, userId)
-      .then(() => {
-      })
-      .catch(() => {
-      });
+    emailjs.send(serviceId, templateId, templateParams, userId);
 
     setSuccessNotice(true);
     setTimeout(() => {
