@@ -33,15 +33,14 @@ const Experience = () => (
         <li className="flex text-base gap-2 text-skyColor mt-4">
           <ChevronRightIcon className="h-6" />
           <p>
-            Reviewed technical projects of junior web developers to make sure projects
-            pass requirements.
+            Managing full-stack development, front-end, back-end, and cloud operations.
           </p>
         </li>
         <li className="flex text-base gap-2 text-skyColor mt-2">
           <ChevronRightIcon className="h-6" />
           <p>
-            Proposed improvements for the projects to improve code quality and
-            overall performance.
+            Oversee full-stack development and cloud operations, ensuring smooth deployment
+            and maintenance.
           </p>
         </li>
       </ul>

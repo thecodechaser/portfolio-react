@@ -11,7 +11,7 @@ const stacks = [
     name: 'Back end development', values: ['Ruby On Rails', 'Ruby', 'Java', 'Spring', 'SQL'],
   },
   {
-    name: 'Tools', values: ['Wordpress', 'Netlify', 'Github & Git', 'Github & Git', 'VS Code'],
+    name: 'Tools', values: ['Wordpress', 'Netlify', 'Github & Git', 'Postman', 'VS Code'],
   },
 ];
 
@@ -34,11 +34,6 @@ const AboutMe = () => (
           <span className="text-secondaryColor">thecodechaser</span>
           . Right now, I&apos;m a Full-Stack Software Engineer at&nbsp;
           <a href="https://kwanzoo.com" target="_blank" className="text-secondaryColor" rel="noreferrer">Kwanzoo INC</a>
-          {/* . I love building web
-          applications using many technologies some of them are React, Vue,&nbsp;
-          JavaScript, Rails and Java.
-          Before diving into web development I have worked for one year as a freelance developer
-          where I built desktop apps, Wordpress, and Shopify websites for my clients. */}
           . I enjoy creating web applications using a mix of technologies like React, Vue,&nbsp;
           JavaScript, Rails, and Java. Before I got into web development, I spent two years
           as a freelance developer, where I worked on desktop apps and built websites with
