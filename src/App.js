@@ -10,6 +10,9 @@ import Posts from './pages/Posts';
 import SuccessNotice from './components/Contact/SucessNotice';
 import NotFound from './pages/404';
 import Footer from './components/Footer';
+import OnlineCourseWaitlist from './pages/OnlineCourseWaitlist';
+import SignUpWaitList from './pages/SignUpWaitList';
+import SignUpSucessNotice from './components/OnlineCourseWaitlist/SignUpSucessNotice';
 import './App.css';
 
 function App() {
@@ -53,6 +56,18 @@ function App() {
           <Route
             path="/messageSent"
             element={(<SuccessNotice />)}
+          />
+          <Route
+            path="/course-sneakpeak"
+            element={(<OnlineCourseWaitlist />)}
+          />
+          <Route
+            path="/signup-waitlist"
+            element={(<SignUpWaitList />)}
+          />
+          <Route
+            path="/signup-successfull"
+            element={(<SignUpSucessNotice />)}
           />
         </Routes>
       </div>
